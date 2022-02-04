@@ -58,9 +58,5 @@
     "test:browser": "node test/server.cjs",
     "test-browser-watch": "cross-env WATCH_MODE=true node test/server.cjs",
     "prepublish": "npm run build"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/systemjs"
   }
 }

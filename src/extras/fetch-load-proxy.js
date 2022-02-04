@@ -1,5 +1,5 @@
 /*
- * Fetch witch proxy
+ * Fetch witch credentials
  */
 (function (global) {
   var systemJSPrototype = global.System.constructor.prototype;
