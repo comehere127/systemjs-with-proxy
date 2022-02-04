@@ -1,6 +1,6 @@
 {
   "name": "systemjs-with-proxy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/system-node.cjs",
   "exports": {
     ".": {

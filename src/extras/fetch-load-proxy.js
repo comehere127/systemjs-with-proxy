@@ -7,14 +7,13 @@
   systemJSPrototype.shouldFetch = function () {
     return false;
   };
-  if (typeof fetch !== "undefined") systemJSPrototype.fetch = fetch;
 
   var instantiate = systemJSPrototype.instantiate;
   var jsContentTypeRegEx = /^(text|application)\/(x-)?javascript(;|$)/;
   systemJSPrototype.instantiate = function (url, parent) {
     var loader = this;
     if (!this.shouldFetch(url)) return instantiate.apply(this, arguments);
-    return this.fetch(url, {
+    return fetch(url, {
       credentials: "include",
     }).then(function (res) {
       if (!res.ok)
