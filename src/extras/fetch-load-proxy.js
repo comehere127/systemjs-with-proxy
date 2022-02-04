@@ -16,7 +16,6 @@
     if (!this.shouldFetch(url)) return instantiate.apply(this, arguments);
     return this.fetch(url, {
       credentials: "include",
-      integrity: importMap.integrity[url],
     }).then(function (res) {
       if (!res.ok)
         throw Error(
