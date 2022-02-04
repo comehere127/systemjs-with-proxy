@@ -1,6 +1,6 @@
 {
   "name": "systemjs-with-proxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/system-node.cjs",
   "exports": {
     ".": {
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/comehere127/systemjs-with-proxy.git"
   },
-  "author": "Guy Bedford",
+  "author": "TuDHM",
   "type": "script",
   "license": "MIT",
   "files": [
